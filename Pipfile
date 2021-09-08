@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dis5000 = {git = "https://github.com/pycabbage/discord5000chobot"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
