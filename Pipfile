@@ -3,8 +3,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+main = "python -m src"
+
 [packages]
 dis5000 = {git = "https://github.com/pycabbage/discord5000chobot"}
+tweepy = "*"
 
 [dev-packages]
 
